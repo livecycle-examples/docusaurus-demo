@@ -11,7 +11,7 @@ web:
             # Matching of a url, can use regex and capture groups
           - match: /($|/.*)
             # Target url to redirect/rewrite to, can use replacement experssion of captured groups
-            target: http://traefik.kube-system/$1
+            target: https://deploy-preview-1--doc-demo-test.netlify.app/$1
             # Action to return, can be redirect/rewrite, default: rewrite
             action: rewrite
             # Force the rule - when force is false, request first is handled by the playground service and only when there is 4xx error
