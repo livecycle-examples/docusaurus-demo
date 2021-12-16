@@ -9,7 +9,7 @@ web:
       # List of routing rules, these rules will evaluated in-order with priority to rules with force: true
       rules:
             # Matching of a url, can use regex and capture groups
-          - match: /($|/.*)
+          - match: /($|.*)
             # Target url to redirect/rewrite to, can use replacement experssion of captured groups
             target: https://deploy-preview-1--doc-demo-test.netlify.app/$1
             # Action to return, can be redirect/rewrite, default: rewrite
