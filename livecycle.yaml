@@ -16,4 +16,5 @@ web:
             action: rewrite
             # Force the rule - when force is false, request first is handled by the playground service and only when there is 4xx error
             # the request will be handled by this router rule
-            force: true    
+            force: true
+            
